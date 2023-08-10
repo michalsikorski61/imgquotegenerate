@@ -42,7 +42,7 @@ $text_color = imagecolorallocate($img, 255, 255, 255);
 // Draw the text on the image
 imagettftext($img, $font_size, 0, $x, $y, $text_color, $font_path, $text);
 
-// Save the image
+// Save the imagej
 imagepng($img, "hello_world_full_hd.png");
 imagedestroy($img);
 echo '<img src="hello_world_full_hd.png" height=300 />';
